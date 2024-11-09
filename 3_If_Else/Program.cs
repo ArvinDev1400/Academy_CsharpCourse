@@ -2,10 +2,10 @@
 //number++;
 //number--;
 
-number %= 4;
+//number %= 4;
 
-Console.WriteLine(number);
-Console.ReadKey();
+//Console.WriteLine(number);
+//Console.ReadKey();
 
 
 Console.WriteLine("please enter number of week:");
@@ -32,7 +32,7 @@ else if (numberOfWeek == 6)
 else if (numberOfWeek == 7)
     Console.WriteLine("Friday");
 
-else if (numberOfWeek < 1 && numberOfWeek > 7)
-    Console.WriteLine();
+else
+    Console.WriteLine(" number is incorrect");
 
 Console.ReadKey();
