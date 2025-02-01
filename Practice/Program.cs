@@ -33,7 +33,6 @@ do
             validFood = false;
             break;
     }
-
     if (!validFood)
         continue;
 
