@@ -15,11 +15,8 @@ while (i > 0)
 {
     if (number % i == 0)
     {
-
         count++;
     }
-
-    Console.WriteLine(i);
     i--;
 }
 
